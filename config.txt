@@ -1,0 +1,35 @@
+[HIT Configuration]
+title = Tag the images
+description = You will have to tag a set of images (colored, black and white, outlines, silhouettes) with what you believe you see.
+amt_keywords = Perception, Psychology, experiment, image, images, classification, pictures
+lifetime = 24
+us_only = false
+approve_requirement = 70
+contact_email_on_error = ioannis.kalfas@kuleuven.be
+ad_group = classification
+psiturk_keywords = object recognition
+organization_name = KU Leuven
+browser_exclude_rule = MSIE, mobile
+
+[Database Parameters]
+database_url = 
+table_name = onoma_table_1
+
+[Server Parameters]
+host = 0.0.0.0
+port = 22362
+cutoff_time = 45
+logfile = server.log
+loglevel = 2
+debug = true
+login_username = examplename
+login_pw = examplepassword
+threads = auto
+
+[Task Parameters]
+experiment_code_version = 1.0
+num_conds = 1
+num_counters = 1
+
+[Shell Parameters]
+launch_in_sandbox_mode = true
